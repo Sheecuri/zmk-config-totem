@@ -39,7 +39,7 @@
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&lt NAV BSPC>, <&kp BSPC>; 
-        }
+        };
     };
     keymap {
         compatible = "zmk,keymap";
@@ -62,8 +62,8 @@
                 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp COLON
-                &mt LGUI A  &mt LALT R  &mt LCTRL S &mt LSHFT T &kp G           &kp M       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
-                &kp Q       &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
+                &mt LGUI A  &mt LALT R  &mt LCTRL S &mt LSHFT T &kp G           &kp M       &mt LSHFT N &mt LCTRL E &mt LALT I  &mt LGUI O
+    &kp Q       &mt RALT Z  &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &mt RALT FSLH    &kp BSLH
                 &lt MOUSE ESC   &td_bspc   &lt FUN TAB       &lt SYM RET   &lt NUM SPC   &kp DEL
             >;
         };
