@@ -25,17 +25,15 @@
 #define MOUSE 5
 
 &mt {
-    // quick-tap-ms = <200>;
-    tapping-term-ms = <200>;
-    require-prior-idle-ms = <150>;
+    tapping-term-ms = <300>;
+    require-prior-idle-ms = <250>;
     global-quick-tap;
     flavor = "balanced";
 };
 
 &lt {
-    // quick-tap-ms = <200>;
-    tapping-term-ms = <200>;
-    require-prior-idle-ms = <150>;
+    tapping-term-ms = <300>;
+    require-prior-idle-ms = <250>;
     global-quick-tap;
     flavor = "balanced";
 };
