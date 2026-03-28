@@ -3,7 +3,7 @@
 //                                                        ▄▀▀▀▄  ▄  ▄▀▀▀▄  ▄  ▄▀▀▀▄  █  ▄▀▀▀▄
 //                                                        █   █  █  █   █  █  █   █  █  █   █
 //                                                         ▀▀▀   █   ▀▀▀   █   ▀▀▀   ▀   ▀▀▀
-//                                                               █      ▄▄▄█▄▄▄    █   █  
+//                                                               █      ▄▄▄█▄▄▄    █   █
 //                                                               ▀      █  █  █     █▄█
 //                                                             ▀▀▀▀▀    █  █  █      ▀
 //                                                                      ▀  ▀  ▀
@@ -59,10 +59,10 @@
             bindings = <
                 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp COLON
-                &mt LGUI A  &mt LALT R  &mt LCTRL S &mt LSHFT T &kp G           &kp M       &mt LSHFT N &mt LCTRL E &mt LALT I  &mt LGUI O
-    &kp BSPC       &mt RALT Z  &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &mt RALT FSLH    &kp DEL
-                &kp ESC   &lt NAV BSPC   &lt FUNC TAB                           &lt SYMB RET   &lt NUM SPC   &kp DEL
+                &kp Q       &kp W       &kp F       &kp P       &kp B       &kp J       &kp L       &kp U       &kp Y       &kp COLON
+                &mt LGUI A  &mt LALT R  &mt LCTRL S &mt LSHFT T &kp G       &kp M       &mt LSHFT N &mt LCTRL E &mt LALT I  &mt LGUI O
+    &kp BSPC    &mt RALT Z  &kp X       &kp C       &kp D       &kp V       &kp K       &kp H       &kp COMMA   &kp DOT     &mt RALT FSLH &kp DEL
+                &kp ESC     &lt NAV BSPC &lt FUNC TAB                        &lt SYMB RET &lt NUM SPC &kp DEL
             >;
         };
 
@@ -85,14 +85,15 @@
             bindings = <
                 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &none      &none      &none      &none      &none               &none       &kp LC(H)   &kp LC(J)   &kp LC(K)   &kp LC(L)
-                &none      &none      &none      &none      &none               &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &caps_word
-                &tog GAME  &none      &none      &none      &none      &none               &kp HOME    &kp LC(D)   &kp LC(U)   &kp END     &kp INS     &none      
-                &trans      &trans      &none        &trans     &kp LC(E)   &trans      
+                &none       &none       &none       &none       &none       &none       &kp LC(H)   &kp LC(J)   &kp LC(K)   &kp LC(L)
+                &none       &none       &none       &none       &none       &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &caps_word
+    &tog GAME   &none       &none       &none       &none       &none       &kp HOME    &kp LC(D)   &kp LC(U)   &kp END     &kp INS     &none
+                &trans      &trans      &none                               &trans      &kp LC(E)   &trans
             >;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+
 
         func_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
@@ -110,10 +111,10 @@
             bindings = <
                 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      &kp F7      &kp F8      &kp F9      &kp F10
-                &kp F11     &kp F12     &kp F13     &kp F14     &kp F15         &kp F16     &kp F17     &kp F18     &kp F19     &kp F20
-                &none      &none        &none       &none       &none       &none           &none       &none       &none       &none       &none     &bootloader         
-                &trans      &none       &trans          &none       &none       &trans      
+                &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10
+                &kp F11     &kp F12     &kp F13     &kp F14     &kp F15     &kp F16     &kp F17     &kp F18     &kp F19     &kp F20
+    &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &bootloader
+                &trans      &none       &trans                              &none       &none       &trans
             >;
         };
 
@@ -136,15 +137,14 @@
             bindings = <
                 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp AT      &kp HASH    &kp LPAR    &kp RPAR    &kp QMARK       &kp EXCL    &kp LBRC    &kp RBRC    &kp AMPS    &kp PIPE       
-                &kp ASTRK   &kp PRCNT   &kp MINUS   &kp COLON   &kp DQT         &kp SQT     &kp FSLH    &kp BSLH    &kp UNDER   &kp SEMI
-                &none       &kp DLLR    &kp PLUS    &kp LBKT    &kp RBKT    &kp EQUAL       &kp CARET   &kp LT      &kp GT      &kp GRAVE   &kp TILDE   &none
-                &trans      &trans      &trans          &none       &trans      &trans      
+                &kp AT      &kp HASH    &kp LPAR    &kp RPAR    &kp QMARK   &kp EXCL    &kp LBRC    &kp RBRC    &kp AMPS    &kp PIPE
+                &kp ASTRK   &kp PRCNT   &kp MINUS   &kp COLON   &kp DQT     &kp SQT     &kp FSLH    &kp BSLH    &kp UNDER   &kp SEMI
+    &none       &kp DLLR    &kp PLUS    &kp LBKT    &kp RBKT    &kp EQUAL   &kp CARET   &kp LT      &kp GT      &kp GRAVE   &kp TILDE   &none
+                &trans      &trans      &trans                              &none       &trans      &trans
             >;
         };
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-
 
 
         game_layer {
@@ -163,12 +163,13 @@
             bindings = <
                 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp T      &kp Q      &kp W      &kp E      &kp R                               &kp TILDE   &none       &kp UP      &none       &none
-                &kp G      &kp A      &kp S      &kp D      &kp F                               &none       &kp LEFT    &kp DOWN    &kp RIGHT    &none
-            &kp LSHIFT     &kp Z      &kp X      &kp C      &kp V      &kp TAB                  &none       &none       &none       &none       &kp FSLH       &tog GAME
-                &kp LCTRL      &kp SPC      &lt NUM TAB                                           &kp ESC     &none       &none
+                &kp T       &kp Q       &kp W       &kp E       &kp R       &kp TILDE   &none       &kp UP      &none       &none
+                &kp G       &kp A       &kp S       &kp D       &kp F       &none       &kp LEFT    &kp DOWN    &kp RIGHT   &none
+    &kp LSHIFT  &kp Z       &kp X       &kp C       &kp V       &kp TAB     &none       &none       &none       &none       &kp FSLH    &tog GAME
+                &kp LCTRL   &kp SPC     &lt NUM TAB                         &kp ESC     &none       &none
             >;
         };
+
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 
@@ -188,10 +189,10 @@
             bindings = <
                 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp N1       &kp N2      &kp N3       &kp N4            &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
-                &kp KP_EQUAL &kp KP_PLUS &kp KP_MINUS &kp KP_ASTERISK   &kp SLASH       &none       &none       &none       &none       &none
-                &none       &none        &none       &none        &none             &none           &none       &none       &none       &none       &none       &none
-                &trans      &trans  &trans      &none       &trans       &trans
+                &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
+                &kp KP_EQUAL &kp KP_PLUS &kp KP_MINUS &kp KP_ASTERISK &kp SLASH &none       &none       &none       &none       &none
+    &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none       &none
+                &trans      &trans      &trans                              &none       &trans      &trans
             >;
         };
     };
