@@ -87,7 +87,7 @@
 
                 &none      &none      &none      &none      &none               &none       &kp LC(H)   &kp LC(J)   &kp LC(K)   &kp LC(L)
                 &none      &none      &none      &none      &none               &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &caps_word
-                &to GAME  &none      &none      &none      &none      &none               &kp HOME    &kp LC(D)   &kp LC(U)   &kp END     &kp INS     &none      
+                &tog GAME  &none      &none      &none      &none      &none               &kp HOME    &kp LC(D)   &kp LC(U)   &kp END     &kp INS     &none      
                 &trans      &trans      &none        &trans     &kp LC(E)   &trans      
             >;
         };
@@ -190,7 +190,7 @@
 
                 &kp T      &kp Q      &kp W      &kp E      &kp R                               &kp TILDE   &kp UP      &none       &none       &none
                 &kp G      &kp A      &kp S      &kp D      &kp F                               &none       &kp LEFT    &kp DOWN    &kp RIGHT    &none
-            &kp LSHIFT     &kp Z      &kp X      &kp C      &kp V      &kp TAB                  &none       &none       &none       &none       &kp FSLH       &tog MOUSE
+            &kp LSHIFT     &kp Z      &kp X      &kp C      &kp V      &kp TAB                  &none       &none       &none       &none       &kp FSLH       &tog GAME
                 &kp LCTRL      &kp SPC      &lt NUM TAB                                           &none     &none       &none
             >;
         };
